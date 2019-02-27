@@ -1,0 +1,53 @@
+[class*='col-'] {
+    float: left;
+    padding: 20px 0px 20px;
+}
+
+[class*='col-']:last-of-type {
+    padding-right: 0px;
+}
+
+h4 {
+    position: relative
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.grid {
+    margin: 0;
+}
+
+.grid-pad {
+    padding: 10px 0;
+}
+
+.col-1-4 {
+    width: 25%;
+}
+
+.module {
+    padding: 20px;
+    text-align: center;
+    color: #eee;
+     max-width: 120px;
+     max-height: 120px;
+    background-color: rgb(82, 160, 156);
+    border-radius: 2px; 
+}
+
+.module:hover {
+    background-color: #eee;
+    color: #68d3d3;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .module {
+        font-size: 10px;
+        max-height: 75px;
+    }
+}
+  
